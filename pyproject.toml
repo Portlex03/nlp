@@ -5,10 +5,11 @@ description = "Project for nlp learning and doing labs"
 authors = ["Portlex <portnyagin924@gmail.com>"]
 readme = "README.md"
 package-mode = false
-licence = GPL-3.0-or-later
 
 [tool.poetry.dependencies]
 python = "^3.11"
+ipywidgets = "^8.1.5"
+torch = "^2.4.1"
 
 
 [build-system]
